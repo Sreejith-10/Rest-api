@@ -10,6 +10,7 @@ import EditForm from "./components/Form/EditForm";
 const App: React.FC = () => {
 	axios.defaults.baseURL = "http://localhost:3001";
 	axios.defaults.withCredentials = true;
+
 	return (
 		<>
 			<div className="wrapper">

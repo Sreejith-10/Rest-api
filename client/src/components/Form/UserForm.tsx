@@ -27,7 +27,7 @@ const UserForm = () => {
 				navigate("/");
 			})
 			.catch(({response}) => {
-				console.log(response.data.error);
+				alert(response.data.error);
 			});
 	};
 

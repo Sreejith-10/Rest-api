@@ -72,7 +72,7 @@ app.delete("/user/delete-user/:id", (req, res) => {
 			if (err) {
 				res.status(400).json({error: err, message: "Failed to remove user"});
 			} else {
-				res.status(200).json("User removed");
+				res.status(204).json("User removed");
 			}
 		}
 	);
